@@ -7,9 +7,9 @@
       let input = document.getElementById("amigo");
       let nome = input.value;
 
-      // Validar entrada
+      // Validando entrada, para saber se tem um nome digitado se não de um alerta 
       if (nome === "") {
-        alert("Por favor, insira um nome.");
+        alert("Por favor, insira um nome!.");
         return;
       }
 
